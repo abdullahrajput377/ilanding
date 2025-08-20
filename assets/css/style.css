@@ -1,8 +1,13 @@
 header{
    background: linear-gradient(135deg, #e8f4ff 57%, #f4f8fd 50%);
 
-    min-height: 100vh;
+   min-height: 100vh;
 
+}
+.navbar{
+    position: sticky;
+    top: 10px;
+    z-index: 10;
 }
 .bg-lightblue{
     background-color: #9de2ec89;
@@ -36,20 +41,22 @@ header{
     height: 30px ;
     width: 30px ;
     border-radius: 100%;
+    margin-left: -15px;
 
 }
 .box-2-parent{
 position: absolute;
-}
+overflow: hidden;}
 .box-2{
     position: relative;
     bottom: 150px ;
-    left: 250px ;
+    left: 150px ;
     background-color: #fff;
 padding: 20px ;
-width: 350px ;
+width:  70% ;
 border-radius:12px  ;
-height: 130px ;
+
+
 animation: uptodown 2s ease infinite alternate ;
 }
 
