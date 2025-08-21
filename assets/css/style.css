@@ -1,13 +1,13 @@
 header{
    background: linear-gradient(135deg, #e8f4ff 57%, #f4f8fd 50%);
-
-   min-height: 100vh;
-
+   
+padding: 120px 0px;
 }
-.navbar{
-    position: sticky;
-    top: 10px;
-    z-index: 10;
+nav{
+    
+    width: 90%;
+    margin: 20px auto;
+    z-index: 10 !important; 
 }
 .bg-lightblue{
     background-color: #9de2ec89;
@@ -75,8 +75,8 @@ animation: uptodown 2s ease infinite alternate ;
     background-color: rgb(208, 236, 244);
 }
 .header-icon{
-    color: rgb(32, 141, 242);
-    font-size: 40px ;
+    color: rgb(42, 143, 239);
+    font-size: 40px;
     
     
 }
@@ -88,7 +88,6 @@ color: #fff;
     padding: 40px 50px ;
     border-radius: 20px;
     width: 100%;
-    
     background-color:#f4f8fd;
     box-shadow: 0px 0px 5px 2px #f3f1f1;
 }
@@ -100,7 +99,91 @@ color: #fff;
     color: gray;
     text-align: center;
 }
-@keyframes uptodown{
+.text-navy{
+    color: rgb(6, 51, 77);
+}
+/* css new */
+
+.team-image {
+    border: 6px solid rgb(255, 255, 255);
+    position: relative;
+    right: 170px;
+}
+
+.Years {
+   animation-name:uptodown;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+.about-icons{
+    font-size: 22px;
+}
+.line{
+    border:2px solid rgb(32, 141, 242); 
+    width: 50px;
+    
+}
+.para-top{
+    margin-bottom: 60px;
+}
+.father-cards1{
+    margin: 0px ;
+    padding: 0px;
+    background-color: #faebeb;
+    border-radius: 12px;
+ 
+}
+.link-feat{
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+
+}
+.card-icon{
+    font-size: 50px ;
+    color: #edb86e;
+}
+.card-icon2{
+    color: #20a5f8;
+}
+.father-cards2{
+    background-color: #deedfd;
+     border-radius: 12px;
+      margin: 0px ;
+    padding: 0px;
+    
+}
+.link-feat:hover{
+    color:rgb(32, 141, 242); 
+}
+.line-father{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.father-bg-gray{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.py-0{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.bg-gray{
+    background-color: rgb(231, 234, 234);
+    padding: 0px ;
+    border-radius: 50px;
+    
+}
+.father2-bg-gray{
+    width: 100% ;
+}
+.w-40{
+    width: 40%;
+}
+@keyframes uptodown {
     from{
         transform: translate(0px);
     }
