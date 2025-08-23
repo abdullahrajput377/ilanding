@@ -307,9 +307,33 @@ justify-content: center;
 align-items: center;
 }
 .counter-father{
-padding: 70px;
+padding: 50px;
 background-color: #fff;
     margin-top: 50px;
+}
+.icons-services1{
+    padding: 15px ;
+    border-radius: 100%;
+    background-color: #c6e2f4;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-services1{
+font-size: 30px;
+color:#0d83fd;
+}
+.Services{
+    background-color:#e1f4ff;
+}
+.box1-services{
+    background-color: #fff;
+    padding: 50px;
+}
+.custom-btn4{
+text-decoration: none;
 }
 @keyframes uptodown {
     from{
