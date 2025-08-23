@@ -284,14 +284,33 @@ font-size: 30px;
 .fs-8{
     font-size: 50px;
 }
-
-
-
-
-
-
-
-
+#testimonials{
+    background-color: #e7e6e6;
+}
+.img-testi{
+    border-radius: 0px;
+}
+.exra-sm{
+    font-size: 12px;
+}
+.icon-testi{
+    color: gold;
+    
+}
+.quotes-testi{
+    font-size: 20px;
+    color: #20a5f8;
+}
+.line-father1{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.counter-father{
+padding: 70px;
+background-color: #fff;
+    margin-top: 50px;
+}
 @keyframes uptodown {
     from{
         transform: translate(0px);
